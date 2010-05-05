@@ -2,7 +2,7 @@ import org.scalatest.FlatSpec
 import org.scalatest.matchers.ShouldMatchers
 import Operators._
 
-class OperatorsSpec extends FlatSpec with ShouldMatchers {
+class OperatorsTest extends FlatSpec with ShouldMatchers {
   "Multiply" should "multiply the 2 values" in {
     multiply(0)(0) should equal (0)
     multiply(2)(5) should equal (10)
