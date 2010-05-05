@@ -1,0 +1,4 @@
+A scala project samples.
+Use sbt update to update project librairies.
+Compile and test project, be sur everything works fine.
+Then use sbt eclipse or sbt idea to prepare your project for import.
