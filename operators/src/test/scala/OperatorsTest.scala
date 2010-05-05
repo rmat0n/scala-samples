@@ -1,6 +1,6 @@
 import org.scalatest.FlatSpec
 import org.scalatest.matchers.ShouldMatchers
-import Operators._
+import functional.Operators._
 
 class OperatorsTest extends FlatSpec with ShouldMatchers {
   "Multiply" should "multiply the 2 values" in {
